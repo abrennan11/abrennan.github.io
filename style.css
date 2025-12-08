@@ -1,0 +1,159 @@
+@media (max-width: 511px) {
+  /* for phones and smaller devices */
+  #nav-buttons {
+    display: none;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: darkslategrey;
+    width: calc(100% - 10px);
+    height: fit-content;
+    padding: 5px;
+    min-height: fit-content;
+    /*transform: translateY(-10px);
+    transition: ease-in-out transform ease-in-out;
+    transition-behavior: allow-discrete;*/
+  }
+
+  .button-img {
+    width: auto;
+    height: 7vh;
+  }
+
+  /* .navbar ul {
+    display: block;
+  } */
+
+  .navbar a {
+    text-align: center;
+  }
+
+  #dropdown {
+    background: transparent;
+    border: none;
+  }
+
+  .top-spacer {
+    height: calc(7vh + 20px);
+  }
+}
+
+@media (min-width: 512px) and (max-width: 880px) {
+  #hide {
+    display: none;
+  }
+}
+
+@media (min-width: 512px) {
+  #dropdown {
+    display: none;
+  }
+
+  .navbar li {
+    float: left;
+    width: 100%;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #nav-buttons {
+    display: block;
+  }
+}
+.button_selected {
+  background-color: midnightblue;
+  color: white;
+}
+
+.button {
+  background-color: darkslategrey;
+  color: white;
+}
+
+.button:hover {
+  background-color: midnightblue;
+  color: white;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: darkslategrey;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: xx-large;
+  display: block;
+  text-align: center;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: darkslateblue;
+}
+
+.content {
+  background-color: darkkhaki;
+  width: calc(100% - 30px);
+  height: auto;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 10px);
+  height: calc(8vh);
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: orange;
+}
+
+#popup-help {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  height: 60vh;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: black;
+  padding: 5px;
+}
+
+#close {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+}
+
+#content-header {
+  text-align: center;
+}
+
+#help {
+  float: right;
+  margin-right: 10px;
+}
+
+.squirrel {
+  height: 50%;
+  margin-top: 5px;
+}
