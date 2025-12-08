@@ -157,3 +157,33 @@ body {
   height: 50%;
   margin-top: 5px;
 }
+
+#reset-hangman {
+  display: inline;
+}
+
+.resume-body {
+  background-color: antiquewhite;
+  width: calc(100% - 20px);
+  padding: 10px;
+  text-align: left;
+  font-family: cursive;
+}
+
+.resume-header {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.resume-subheader {
+  text-align: center;
+  font-size: large;
+}
+
+.resume-title {
+  font-size: larger;
+}
+
+.resume-content {
+  font-size: medium;
+}

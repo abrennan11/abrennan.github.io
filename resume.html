@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <button id="dropdown">
+        <img src="icons8-menu-50.png" class="button-img" />
+      </button>
+      <div id="nav-buttons">
+        <ul>
+          <li>
+            <a href="index.html" class="button"> Home </a>
+          </li>
+          <li>
+            <a href="about.html" class="button"> About </a>
+          </li>
+          <li>
+            <a class="button_selected"> Resume </a>
+          </li>
+          <li>
+            <a href="projects.html" class="button"> Projects </a>
+          </li>
+          <li>
+            <a href="contact.html" class="button">
+              Contact
+              <span id="hide">Me</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="top-spacer"></div>
+    <div class="content-header content" id="content-header">
+      <h2>Resume</h2>
+    </div>
+    <div class="content" id="content">
+      <div class="resume-body">
+        <div class="resume-header">Aidan Brennan</div>
+        <div class="resume-subheader">
+          Portland Oregon - totallyrealemail@mail.com
+        </div>
+        <div class="resume-title">Education</div>
+        <div class="resume-content">
+          <ul>
+            <li>Franklin High School 2018-2022</li>
+            <li>
+              Portland Community College 2022-2024<br />Associate of science
+            </li>
+            <li>
+              Portland State University 2024-2026 <br />Bachelor of Science -
+              Computer Science, Mathematics minor
+            </li>
+          </ul>
+        </div>
+        <div class="resume-title">Work Experience</div>
+        <div class="resume-content">
+          <ul>
+            <li>Pizza Jerk - General Manager - Apr 2022-Jan 2026</li>
+            <li>Northwest Watersheds LLC - Web Developer - Jan 2020-Present</li>
+            <li>
+              The Standard Insurance - Software Development Intern - Jan
+              2026-Present
+            </li>
+          </ul>
+        </div>
+        <div class="resume-title">Skills</div>
+        <div class="resume-content">
+          Programming, UNIX environments, OOP, data structures, algorithm
+          design, web development, leadership skills, Spanish fluency
+        </div>
+      </div>
+    </div>
+    <div id="popup-help">
+      <p>
+        Yeah. We not that fancy. This is just a school project. If this were a
+        real website with more of a purpose this is where we would put an option
+        to report bugs and whatnot but not this one.
+      </p>
+      <img src="squirrel.jpg" class="squirrel" />
+      <button id="close">close</button>
+    </div>
+    <div id="footer">
+      &copy Aidan C Brennan 2025 all rights reserved.
+      <button id="help">Report an issue</button>
+    </div>
+  </body>
+</html>
