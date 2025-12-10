@@ -41,14 +41,33 @@
       <h2>Projects</h2>
     </div>
     <div class="content" id="content">
-      <h4>Hangman</h4>
-      <div id="hangman-canvas"></div>
-      <form id="hangman">
-        <label for="selection">Selection:</label><br />
-        <input type="text" id="selection" name="selection" />
-        <input type="submit" value="submit" />
-        <button id="reset-hangman">New Game</button>
-      </form>
+      <div class="flex-container">
+        <div class="flex-item">
+          <h4>Hangman</h4>
+          <div id="hangman-canvas"></div>
+          <form id="hangman" autocomplete="off">
+            <label for="selection">Selection:</label><br />
+            <input type="text" id="selection" name="selection" />
+            <input type="submit" value="submit" />
+            <button id="reset-hangman">New Game</button>
+          </form>
+        </div>
+        <div class="flex-item">
+          <h3>Arvik</h3>
+          Tape archiver using C methods
+          <a href="git.html" target="_blank">
+            <div class="git-button">Github repo</div>
+          </a>
+        </div>
+        <div class="flex-item">
+          <h3>Psargon</h3>
+          Password cracker utilizing argon5 and multithreading to crack a set of
+          passwords against a set of hashes. Works similar to hashcat.
+          <a href="git.html" target="_blank">
+            <div class="git-button">Github repo</div>
+          </a>
+        </div>
+      </div>
     </div>
     <div id="popup-help">
       <p>
@@ -56,7 +75,9 @@
         real website with more of a purpose this is where we would put an option
         to report bugs and whatnot but not this one.
       </p>
-      <img src="squirrel.jpg" class="squirrel" />
+      <a href="https://www.youtube.com/watch?v=MEi7WlKb4Js" target="_blank">
+        <img src="squirrel.jpg" class="squirrel"
+      /></a>
       <button id="close">close</button>
     </div>
     <div id="footer">

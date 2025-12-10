@@ -133,9 +133,11 @@ body {
   height: 60vh;
   background-color: antiquewhite;
   border-radius: 5px;
-  border-width: 2px;
+  border-width: 1px;
   border-color: black;
+  border-style: solid;
   padding: 5px;
+  box-shadow: 3px 3px 10px;
 }
 
 #close {
@@ -186,4 +188,34 @@ body {
 
 .resume-content {
   font-size: medium;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.flex-item {
+  background-color: antiquewhite;
+  width: 27vw;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+}
+
+.git-button {
+  background-color: white;
+  width: 100px;
+  text-decoration: none;
+  padding: 3px;
+  box-shadow: 2px 2px 10px;
+  color: black;
+  position: absolute;
+  bottom: 5%;
 }
